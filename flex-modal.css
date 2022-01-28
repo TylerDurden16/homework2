@@ -21,18 +21,22 @@ body {
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
   display: flex;
-  flex-wrap: wrap;
-  padding: 12px;
-  gap: 8px;
+  padding: 16px;
+  gap: 16px;
 }
 .header {
 font-weight: bold;
-font-size: 21px;
+font-size: 20px;
 }
-.main{
+.container {
     display: flex;
+    flex: 1;
+    gap: 0px 5px;
+    flex-wrap: wrap;
 }
-
+.text{
+    padding: 12px 0px;
+}
 .icon {
   color: royalblue;
   font-size: 26px;
@@ -57,6 +61,7 @@ font-size: 21px;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-left: auto;
 }
 
 button {
