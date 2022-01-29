@@ -26,16 +26,18 @@ body {
 }
 .header {
 font-weight: bold;
-font-size: 20px;
+font-size: 18px;
+margin-bottom: 9px;
+margin-top: 2px;
 }
 .container {
     display: flex;
     flex: 1;
-    gap: 0px 5px;
+    gap: 0px 4px;
     flex-wrap: wrap;
 }
 .text{
-    padding: 12px 0px;
+    margin-bottom: 16px;
 }
 .icon {
   color: royalblue;
